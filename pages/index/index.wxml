@@ -1,0 +1,16 @@
+<!--index.wxml-->
+<view >
+  <view>
+    <view class='selectFeature' bindtap='goToScroll'>go to scroll</view>
+    <view class='selectFeature' bindtap='goToSwiper'>go to Swiper</view>
+    <view class='selectFeature' bindtap='goToMoveable'>go to Moveable</view>
+    <view class='selectFeature' bindtap='goToCover'>go to Cover</view>
+    <view class='selectFeature' bindtap='goToBase'>go to Base</view>
+    <view class='selectFeature' bindtap='goToForm'>go to Form</view>
+    <view class='selectFeature' bindtap='goToMedia'>go to Media</view>
+    <view class='selectFeature' bindtap='goToTab'>go to Tab</view>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+</view>
