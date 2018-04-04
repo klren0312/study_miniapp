@@ -95,5 +95,20 @@ Page({
     wx.navigateTo({
       url: '/pages/mypage/mypage',
     })
+  },
+  goToMap: function() {
+    wx.navigateTo({
+      url: '/pages/map/map',
+    })
+  },
+  goToRequest: function() {
+    wx.navigateTo({
+      url: '/pages/request/request',
+    })
+  },
+  goToLive: function(){
+    wx.navigateTo({
+      url: '/pages/live/live',
+    })
   }
 })

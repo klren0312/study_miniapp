@@ -10,7 +10,10 @@
     "pages/form/form",
     "pages/media/media",
     "pages/tab/tab",
-    "pages/mypage/mypage"
+    "pages/mypage/mypage",
+    "pages/map/map",
+    "pages/request/request",
+    "pages/live/live"
   ],
   "window":{
     "backgroundTextStyle":"light",

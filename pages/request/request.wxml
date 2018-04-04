@@ -1,0 +1,6 @@
+<!--pages/request/request.wxml-->
+<view>
+  <view wx:for="{{shoppingList}}" wx:key>
+    <checkbox value='{{item.label}}' checked='{{item.checked}}'>{{item.label}}</checkbox>
+  </view>
+</view>
