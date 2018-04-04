@@ -9,7 +9,8 @@
     "pages/base/base",
     "pages/form/form",
     "pages/media/media",
-    "pages/tab/tab"
+    "pages/tab/tab",
+    "pages/mypage/mypage"
   ],
   "window":{
     "backgroundTextStyle":"light",

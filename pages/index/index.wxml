@@ -9,6 +9,7 @@
     <view class='selectFeature' bindtap='goToForm'>go to Form</view>
     <view class='selectFeature' bindtap='goToMedia'>go to Media</view>
     <view class='selectFeature' bindtap='goToTab'>go to Tab</view>
+    <view class='selectFeature' bindtap='goToMypage'>go to Mypage</view>
   </view>
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>

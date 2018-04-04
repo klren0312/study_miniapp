@@ -90,5 +90,10 @@ Page({
     wx.navigateTo({
       url: '/pages/tab/tab',
     })
+  },
+  goToMypage: function() {
+    wx.navigateTo({
+      url: '/pages/mypage/mypage',
+    })
   }
 })

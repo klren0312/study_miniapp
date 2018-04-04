@@ -25,6 +25,27 @@
   background: yellow;
 }
 
-.flex_wrap {
+.flex {
   display: flex;
 }
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-row-re {
+  flex-direction: row-reverse;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-column-re {
+  flex-direction: column-reverse;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
