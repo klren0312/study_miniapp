@@ -11,7 +11,4 @@
     <view class='selectFeature' bindtap='goToTab'>go to Tab</view>
     <view class='selectFeature' bindtap='goToMypage'>go to Mypage</view>
   </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
-  </view>
 </view>

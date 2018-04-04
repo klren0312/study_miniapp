@@ -17,5 +17,19 @@
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "test",
     "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color":"#d4d4d4",
+    "selectedColor":"lightblue",
+    "backgroundColor":"black",
+    "borderStyle":"#d4d4d4",
+    "list":[{
+      "pagePath":"pages/index/index",
+      "text": "首页"
+    },{
+      "pagePath":"pages/mypage/mypage",
+      "text": "我的页面"
+    }],
+    "position":"bottom"
   }
 }
