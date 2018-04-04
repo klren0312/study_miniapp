@@ -13,7 +13,8 @@
     "pages/mypage/mypage",
     "pages/map/map",
     "pages/request/request",
-    "pages/live/live"
+    "pages/live/live",
+    "pages/toast/toast"
   ],
   "window":{
     "backgroundTextStyle":"light",

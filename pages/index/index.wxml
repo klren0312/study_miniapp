@@ -13,6 +13,7 @@
     <view class='selectFeature' bindtap='goToMap'>go to Map</view>
     <view class='selectFeature' bindtap='goToRequest'>go to Request</view>
     <view class='selectFeature' bindtap='goToLive'>go to Live</view>
+    <view class='selectFeature' bindtap='goToToast'>go to Toast</view>
 
   </view>
 
