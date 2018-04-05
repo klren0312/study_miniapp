@@ -115,5 +115,10 @@ Page({
     wx.navigateTo({
       url: '/pages/toast/toast',
     })
+  },
+  goToUse: function() {
+    wx.navigateTo({
+      url: '/pages/use/use',
+    })
   }
 })
