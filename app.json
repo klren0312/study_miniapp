@@ -15,13 +15,17 @@
     "pages/request/request",
     "pages/live/live",
     "pages/toast/toast",
-    "pages/use/use"
+    "pages/use/use",
+    "pages/life/life",
+    "pages/module/module",
+    "pages/wxs/wxs"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "test",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle":"black",
+    "navigationStyle": "default"
   },
   "tabBar": {
     "color":"#d4d4d4",
@@ -36,5 +40,6 @@
       "text": "我的页面"
     }],
     "position":"bottom"
-  }
+  },
+  "workers": "workers"
 }

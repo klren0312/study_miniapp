@@ -44,6 +44,10 @@ Page({
       })
     }
   },
+  longpress: function(){
+    console.log('long,long,ago........',this.route)
+
+  },
   /**
    * 生命周期函数--监听页面加载
    */

@@ -1,4 +1,9 @@
 //app.js
+var worker = wx.createWorker('workers/request/index.js')
+worker.postMessage({
+  msg: 'hello worker'
+})
+
 App({
   onLaunch: function () {
     // 展示本地存储能力

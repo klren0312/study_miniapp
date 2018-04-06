@@ -9,6 +9,13 @@ Page({
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo')
   },
+  onReady: function() {
+    console.log(app)
+  },
+  onHide: function() {
+    console.log('onHide')
+  },
+
   //事件处理函数
   bindViewTap: function() {
     wx.navigateTo({
@@ -119,6 +126,21 @@ Page({
   goToUse: function() {
     wx.navigateTo({
       url: '/pages/use/use',
+    })
+  },
+  goToLife: function() {
+    wx.navigateTo({
+      url: '/pages/life/life?id=1',
+    })
+  },
+  goToModule: function() {
+    wx.navigateTo({
+      url: '/pages/module/module',
+    })
+  },
+  goToWxs: function() {
+    wx.navigateTo({
+      url: '/pages/wxs/wxs',
     })
   }
 })

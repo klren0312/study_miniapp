@@ -15,6 +15,9 @@
     <view class='selectFeature' bindtap='goToLive'>go to Live</view>
     <view class='selectFeature' bindtap='goToToast'>go to Toast</view>
     <view class='selectFeature' bindtap='goToUse'>go to Use</view>
+    <view class='selectFeature' bindtap='goToLife'>go to Life</view>
+    <view class='selectFeature' bindtap='goToModule'>go to Module</view>
+    <view class='selectFeature' bindtap='goToWxs'>go to Wxs</view>
   </view>
 
 </view>

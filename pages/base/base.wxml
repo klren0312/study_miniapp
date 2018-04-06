@@ -35,3 +35,5 @@
 <progress class='progress-margin' percent='40' stroke-width='12'></progress>
 <progress class='progress-margin' percent='10' color='pink'></progress>
 <progress class='progress-margin' percent='80' color='blue' active></progress>
+
+<button bindlongpress='longpress'>longpress</button>
