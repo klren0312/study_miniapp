@@ -18,7 +18,10 @@
     "pages/use/use",
     "pages/life/life",
     "pages/module/module",
-    "pages/wxs/wxs"
+    "pages/wxs/wxs",
+    "pages/opendata/opendata",
+    "pages/input/input",
+    "pages/webview/webview"
   ],
   "window":{
     "backgroundTextStyle":"light",

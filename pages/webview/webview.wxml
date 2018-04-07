@@ -1,0 +1,7 @@
+<!--pages/webview/webview.wxml-->
+<view class="page-body">
+  <view class="page-section page-section-gap">
+    <web-view src="https://m.baidu.com/"></web-view>
+  </view>
+</view>
+

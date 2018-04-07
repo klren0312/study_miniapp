@@ -11,6 +11,7 @@ Page({
   },
   onReady: function() {
     console.log(app)
+    console.log(wx.canIUse('cover-view'))
   },
   onHide: function() {
     console.log('onHide')
@@ -141,6 +142,21 @@ Page({
   goToWxs: function() {
     wx.navigateTo({
       url: '/pages/wxs/wxs',
+    })
+  },
+  goToOpendata: function() {
+    wx.navigateTo({
+      url: '/pages/opendata/opendata',
+    })
+  },
+  goToInput: function() {
+    wx.navigateTo({
+      url: '/pages/input/input',
+    })
+  },
+  goToWebview: function() {
+    wx.navigateTo({
+      url: '/pages/webview/webview',
     })
   }
 })
