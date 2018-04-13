@@ -1,42 +1,32 @@
-// pages/request/request.js
+// pages/articledt/articledt.js
+const articleInfo={
+  title:'特斯拉卡车发布',
+  category:'科技',
+  poster:'https://frankfurt-cdr-contents-all.s3.cn-north-1.amazonaws.com.cn/Chinese_Cabbage_preview.jpeg',
+  content:'特斯拉卡车发布了哈哈哈',
+  created_at:'2017-11-11'
+}
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    shoppingList:[{
-      id:0,
-      label:'',
-      checked: true
-    }],
-    myIp:''
+    article:{}
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    wx.request({
-      url: 'https://easy-mock.com/mock/5ab3141317cfc314f32c4c23/api/shoppinglist',
-      success: function(res){
-        this.setData({
-          shoppingList: res.data.data.shoppingList
-        })
-      }.bind(this)
+    this.getArticle(options.id)
+  },
+  getArticle: function(id) {
+    this.setData({
+      article: articleInfo
     })
   },
-  getIp: function() {
-    wx.request({
-      url: 'http://ip-api.com/json',
-      success: function (e) {
-        console.log(e.data)
-        this.setData({
-          myIp:e.data.query
-        })
-      }.bind(this)
-    })
-  },
+
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
@@ -82,7 +72,16 @@ Page({
   /**
    * 用户点击右上角分享
    */
-  onShareAppMessage: function () {
-  
+  onShareAppMessage: function (options) {
+    return {
+      title: '治电农产品',
+      path:'/pages/articledt/articledt?id=1',
+      success: function() {
+        console.log('share successful')
+      },
+      fail: function() {
+
+      }
+    }
   }
 })

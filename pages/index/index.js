@@ -158,5 +158,10 @@ Page({
     wx.navigateTo({
       url: '/pages/webview/webview',
     })
+  },
+  goToLogin: function() {
+    wx.navigateTo({
+      url: '/pages/login/login',
+    })
   }
 })

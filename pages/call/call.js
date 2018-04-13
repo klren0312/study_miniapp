@@ -1,42 +1,24 @@
-// pages/request/request.js
+// pages/call/call.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    shoppingList:[{
-      id:0,
-      label:'',
-      checked: true
-    }],
-    myIp:''
+  
   },
-
+  callSomeone: function(){
+  wx.makePhoneCall({
+    phoneNumber: '15755022403',
+  })
+  },
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    wx.request({
-      url: 'https://easy-mock.com/mock/5ab3141317cfc314f32c4c23/api/shoppinglist',
-      success: function(res){
-        this.setData({
-          shoppingList: res.data.data.shoppingList
-        })
-      }.bind(this)
-    })
+  
   },
-  getIp: function() {
-    wx.request({
-      url: 'http://ip-api.com/json',
-      success: function (e) {
-        console.log(e.data)
-        this.setData({
-          myIp:e.data.query
-        })
-      }.bind(this)
-    })
-  },
+
   /**
    * 生命周期函数--监听页面初次渲染完成
    */

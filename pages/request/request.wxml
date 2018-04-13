@@ -3,4 +3,6 @@
   <view wx:for="{{shoppingList}}" wx:key>
     <checkbox value='{{item.label}}' checked='{{item.checked}}'>{{item.label}}</checkbox>
   </view>
+  <button bindtap='getIp'>获取本机ip</button>
+  <view>{{myIp}}</view>
 </view>

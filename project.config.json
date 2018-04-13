@@ -9,7 +9,7 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "1.9.94",
-	"appid": "touristappid",
+	"appid": "wxefe389c79a8fec0f",
 	"projectname": "byzeroStudy",
 	"condition": {
 		"search": {
@@ -29,12 +29,12 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": -1,
+			"current": 0,
 			"list": [
 				{
 					"id": 0,
 					"name": "input",
-					"pathName": "pages/webview/webview",
+					"pathName": "pages/request/request",
 					"query": ""
 				}
 			]

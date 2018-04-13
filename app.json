@@ -21,7 +21,11 @@
     "pages/wxs/wxs",
     "pages/opendata/opendata",
     "pages/input/input",
-    "pages/webview/webview"
+    "pages/webview/webview",
+    "pages/login/login",
+    "pages/article/article",
+    "pages/articledt/articledt",
+    "pages/call/call"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -41,6 +45,9 @@
     },{
       "pagePath":"pages/mypage/mypage",
       "text": "我的页面"
+    },{
+      "pagePath":"pages/article/article",
+      "text":"文章"
     }],
     "position":"bottom"
   },

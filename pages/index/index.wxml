@@ -21,6 +21,7 @@
     <view class='selectFeature' bindtap='goToOpendata'>go to Opendata</view>
     <view class='selectFeature' bindtap='goToInput'>go to Input</view>
     <view class='selectFeature' bindtap='goToWebview'>go to Webview</view>
+    <view class='selectFeature' bindtap='goToLogin'>go to Login</view>
   </view>
 
 </view>

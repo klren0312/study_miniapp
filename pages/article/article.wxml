@@ -1,0 +1,16 @@
+<!--pages/article/article.wxml-->
+<view wx:for="{{articles}}" wx:for-item="article" wx:key="index"  class='article'>
+  <image class='article-img' src='{{article.cover}}' data-id="{{article.id}}" bindtap='toDetailPage'/>
+  <view class='article-content'>
+    <view data-id='{{article.id}}' class='article-title'>{{article.title}}</view>
+    <view class='article-desc'>{{article.description}}</view>
+    <view class='article-view'>
+      <view class='article-view-item'>评论数：{{article.talk}}</view>
+      <view class='article-view-item'>点赞数：{{article.love}}</view>
+    </view>
+  </view>
+</view>
+
+<button type='default' plain='{{true}}' loading='{{loading}}' bindtap='loadMore'>
+  {{loadMoreText}}
+</button>
