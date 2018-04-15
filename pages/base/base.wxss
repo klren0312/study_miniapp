@@ -1,4 +1,0 @@
-/* pages/base/base.wxss */
-.progress-margin{
-  margin-top: 20px;
-}

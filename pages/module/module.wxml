@@ -1,5 +1,0 @@
-<!--pages/module/module.wxml-->
-<block wx:for="{{[1, 2, 3]}}">
-  <view> {{index}}: </view>
-  <view> {{item}} </view>
-</block>

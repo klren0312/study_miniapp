@@ -1,3 +1,0 @@
-<!--pages/call/call.wxml-->
-<text>拨打电话</text>
-<button bindtap='callSomeone'>拨打电话</button>

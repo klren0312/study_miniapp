@@ -1,6 +1,0 @@
-<!--pages/articledt/articledt.wxml-->
-<view><image src='{{article.poster}}'></image></view>
-<view>{{article.title}}</view>
-<view>{{article.created_at}}</view>
-<view>{{article.content}}</view>
-<button class='article-share-btn' plain='{{true}}' open-type='share' />
