@@ -1,0 +1,40 @@
+/* pages/article/article.wxss */
+.article {
+  padding: 0 40rpx;
+}
+.article-img {
+  width: 100%;
+  height: 500rpx;
+}
+
+.article-content{
+  margin-top: -10rpx;
+  margin-bottom: 20rpx;
+  border: 1rpx solid #d4d4d4;
+  padding: 0 0 20rpx 0;
+}
+.article-title {
+  border-left: 10rpx solid lightblue;
+  border-bottom: 2rpx solid lightblue;
+  padding: 10rpx;
+}
+
+.article-desc {
+  padding-left: 20rpx;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+}
+
+.article-view {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.article-view-item {
+  font-size: 30rpx;
+  border: 2rpx solid lightblue;
+  border-radius: 20rpx 20rpx;
+  padding: 15rpx;
+  margin-left: 2rpx;
+}

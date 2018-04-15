@@ -1,0 +1,9 @@
+<!--pages/wxs/wxs.wxml-->
+<wxs module="m1">
+  var msg = "hello world"
+  module.exports.message = msg
+</wxs>
+<wxs src="comm.wxs" module="comm" />
+<view>{{m1.message}}</view>
+<view>{{comm.msg}}</view>
+<view>{{comm.bar(comm.foo)}}</view>

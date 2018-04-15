@@ -1,0 +1,5 @@
+/* pages/input/input.wxss */
+.section {
+  margin-bottom: 50rpx;
+  border: 1px solid lightblue;
+}

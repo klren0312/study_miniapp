@@ -1,0 +1,5 @@
+<!--pages/toast/toast.wxml-->
+<button type='primary' bindtap='showToast'>toast</button>
+<button type='warn' bindtap='showLoading'>loading</button>
+<button type='default' bindtap='showModal'>modal</button>
+<button type='primary' bindtap='showAction'>action</button>

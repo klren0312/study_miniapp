@@ -1,0 +1,9 @@
+/* pages/articledt/articledt.wxss */
+.article-share-btn {
+  position: fixed;
+  right: 30rpx;
+  bottom: 30rpx;
+  width: 70rpx;
+  height: 70rpx;
+  background-image: url(https://frankfurt-cdr-contents-all.s3.cn-north-1.amazonaws.com.cn/Chinese_Cabbage_preview.jpeg);
+}

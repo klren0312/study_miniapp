@@ -1,0 +1,7 @@
+<!--pages/live/live.wxml-->
+<live-player src="rtmp://live.hkstv.hk.lxdns.com/live/hks"
+  mode="live"
+  autoplay
+  style="width: 300px;height:225px;"
+>
+</live-player>
