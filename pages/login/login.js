@@ -1,6 +1,5 @@
 // pages/login/login.js
 Page({
-
   /**
    * 页面的初始数据
    */
@@ -12,15 +11,53 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-  
+    wx.checkSession({
+      success: function (v) {
+        console.log(v)
+      },
+      fail: function (v) {
+        console.log(v)
+        this.login()
+      }.bind(this)
+    })
   },
-  login: function(){
+  login: function() {
     wx.login({
-      success: function(loginRes) {
-        if(loginRes.code) {
-          console.log(loginRes.code)
-        }
+      success: (loginRes) => {
+        wx.getUserInfo({
+          success: function (rawData) {
+            let { encryptedData, iv, signature } = rawData;
+            wx.request({
+              url: 'http://localhost:7001/weapp',
+              method: 'POST',
+              data: {
+                'crypted': encryptedData,
+                'iv': iv,
+                'signature': signature,
+                'code': loginRes.code
+              },
+              success: (res) => {
+                wx.setStorage({
+                  key: 'skey',
+                  data: res.data.skey,
+                })
+              }
+            })
+          }
+        })
       }
+    })
+    
+  },
+  check: function() {
+    wx.checkSession({
+      success: function(v) {
+        console.log(v)
+      },
+      fail: function(v){
+        console.log(v)
+        this.login()
+      }.bind(this)
     })
   },
   /**

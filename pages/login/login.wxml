@@ -1,2 +1,4 @@
 <!--pages/login/login.wxml-->
 <button bindtap='login'>login</button>
+<button open-type='getUserInfo'>getUserInfo</button>
+<button catchtap='check'>check user</button>
