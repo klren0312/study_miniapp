@@ -163,5 +163,10 @@ Page({
     wx.navigateTo({
       url: '/pages/login/login',
     })
+  },
+  goToSocket: function() {
+    wx.navigateTo({
+      url: '/pages/socket/socket',
+    })
   }
 })
