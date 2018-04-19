@@ -33,9 +33,10 @@
 			"current": 0,
 			"list": [
 				{
-					"id": -1,
-					"name": "login",
-					"pathName": "pages/login/login"
+					"id": 0,
+					"name": "socket",
+					"pathName": "pages/socket/socket",
+					"query": ""
 				}
 			]
 		}

@@ -25,7 +25,8 @@
     "pages/login/login",
     "pages/article/article",
     "pages/articledt/articledt",
-    "pages/call/call"
+    "pages/call/call",
+    "pages/socket/socket"
   ],
   "window": {
     "backgroundTextStyle": "light",
