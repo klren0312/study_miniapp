@@ -23,6 +23,7 @@
     <view class='selectFeature' bindtap='goToWebview'>go to Webview</view>
     <view class='selectFeature' bindtap='goToLogin'>go to Login</view>
     <view class='selectFeature' bindtap='goToSocket'>go to Socket</view>
+    <view class='selectFeature' bindtap='goToEcharts'>go to Echarts</view>
   </view>
 
 </view>

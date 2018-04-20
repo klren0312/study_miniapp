@@ -1,13 +1,13 @@
 // pages/socket/socket.js
 const io = require('../../libs/weapp.socket.io.js')
-const app = getApp()
+
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-  
+ 
   },
 
   /**
@@ -23,6 +23,7 @@ Page({
       title: 'weapp.socket.io实例',
     })
     this.createConnect()
+
   },
   /**
    * 创建连接

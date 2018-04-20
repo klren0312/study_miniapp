@@ -30,11 +30,11 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": -1,
+			"current": 0,
 			"list": [
 				{
 					"id": 0,
-					"name": "socket",
+					"name": "echarts",
 					"pathName": "pages/socket/socket",
 					"query": ""
 				}

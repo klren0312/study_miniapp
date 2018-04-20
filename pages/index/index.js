@@ -168,5 +168,10 @@ Page({
     wx.navigateTo({
       url: '/pages/socket/socket',
     })
+  },
+  goToEcharts: function() {
+    wx.navigateTo({
+      url: '/pages/echarts/echarts',
+    })
   }
 })

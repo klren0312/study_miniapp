@@ -50,7 +50,7 @@
 
 /* mark */
 .mark {
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   height: 200rpx;
 }
